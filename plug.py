@@ -32,11 +32,11 @@ feats = [ QgsFeature() for feature in range(len(pointsList)) ]
 
 for feature, feat in enumerate(feats):
     feat.setAttributes([feature])
-    feat.setGeometry(featureList[feature])
+    feat.setGeometry(pointsList[feature])
 
 prov.addFeatures(feats) #Add points feature layer
 root.addMapLayer(mem_vectorLyr) # Add layer to root
 #Set symbology for the point layer
-
+#<to do>
 #save the layer
-
+#<to do>
