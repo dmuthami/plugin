@@ -17,6 +17,9 @@ for feature in features:
     #get x, and get Y
     x=cordArra[0]
     y=cordArra[1]
+    # Create point feature
+    #feat.setGeometry(QgsGeometry.fromPointXY(QgsPointXY(453257, 4631706)))
+    
     print(x,y)
     #print(cordArra)
 #Create a new point layer
